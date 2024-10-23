@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"]:focus ~ .input-text{
+    @apply text-purple-600 bg-slate-300 transform -translate-y-9 -translate-x-4 scale-75;
+}
